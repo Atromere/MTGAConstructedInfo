@@ -1,0 +1,13 @@
+C:\Users\tpanh\source\repos\MTGAContructedInfo\MTGAContructedInfo\bin\Release\netcoreapp2.0\win10-x64\hostpolicy.dll
+C:\Users\tpanh\source\repos\MTGAContructedInfo\MTGAContructedInfo\bin\Release\netcoreapp2.0\win10-x64\hostfxr.dll
+C:\Users\tpanh\source\repos\MTGAContructedInfo\MTGAContructedInfo\bin\Release\netcoreapp2.0\win10-x64\MTGAContructedInfo.exe
+C:\Users\tpanh\source\repos\MTGAContructedInfo\MTGAContructedInfo\bin\Release\netcoreapp2.0\win10-x64\MTGAContructedInfo.deps.json
+C:\Users\tpanh\source\repos\MTGAContructedInfo\MTGAContructedInfo\bin\Release\netcoreapp2.0\win10-x64\MTGAContructedInfo.runtimeconfig.json
+C:\Users\tpanh\source\repos\MTGAContructedInfo\MTGAContructedInfo\bin\Release\netcoreapp2.0\win10-x64\MTGAContructedInfo.runtimeconfig.dev.json
+C:\Users\tpanh\source\repos\MTGAContructedInfo\MTGAContructedInfo\bin\Release\netcoreapp2.0\win10-x64\MTGAContructedInfo.dll
+C:\Users\tpanh\source\repos\MTGAContructedInfo\MTGAContructedInfo\bin\Release\netcoreapp2.0\win10-x64\MTGAContructedInfo.pdb
+C:\Users\tpanh\source\repos\MTGAContructedInfo\MTGAContructedInfo\obj\Release\netcoreapp2.0\win10-x64\MTGAContructedInfo.csproj.CoreCompileInputs.cache
+C:\Users\tpanh\source\repos\MTGAContructedInfo\MTGAContructedInfo\obj\Release\netcoreapp2.0\win10-x64\MTGAContructedInfo.AssemblyInfoInputs.cache
+C:\Users\tpanh\source\repos\MTGAContructedInfo\MTGAContructedInfo\obj\Release\netcoreapp2.0\win10-x64\MTGAContructedInfo.AssemblyInfo.cs
+C:\Users\tpanh\source\repos\MTGAContructedInfo\MTGAContructedInfo\obj\Release\netcoreapp2.0\win10-x64\MTGAContructedInfo.dll
+C:\Users\tpanh\source\repos\MTGAContructedInfo\MTGAContructedInfo\obj\Release\netcoreapp2.0\win10-x64\MTGAContructedInfo.pdb

@@ -1,0 +1,11 @@
+C:\Users\tpanh\source\repos\MTGAContructedInfo\MTGAContructedInfo\bin\Debug\netcoreapp2.0\MTGAContructedInfo.deps.json
+C:\Users\tpanh\source\repos\MTGAContructedInfo\MTGAContructedInfo\bin\Debug\netcoreapp2.0\MTGAContructedInfo.runtimeconfig.json
+C:\Users\tpanh\source\repos\MTGAContructedInfo\MTGAContructedInfo\bin\Debug\netcoreapp2.0\MTGAContructedInfo.runtimeconfig.dev.json
+C:\Users\tpanh\source\repos\MTGAContructedInfo\MTGAContructedInfo\bin\Debug\netcoreapp2.0\MTGAContructedInfo.dll
+C:\Users\tpanh\source\repos\MTGAContructedInfo\MTGAContructedInfo\bin\Debug\netcoreapp2.0\MTGAContructedInfo.pdb
+C:\Users\tpanh\source\repos\MTGAContructedInfo\MTGAContructedInfo\obj\Debug\netcoreapp2.0\MTGAContructedInfo.csprojResolveAssemblyReference.cache
+C:\Users\tpanh\source\repos\MTGAContructedInfo\MTGAContructedInfo\obj\Debug\netcoreapp2.0\MTGAContructedInfo.csproj.CoreCompileInputs.cache
+C:\Users\tpanh\source\repos\MTGAContructedInfo\MTGAContructedInfo\obj\Debug\netcoreapp2.0\MTGAContructedInfo.AssemblyInfoInputs.cache
+C:\Users\tpanh\source\repos\MTGAContructedInfo\MTGAContructedInfo\obj\Debug\netcoreapp2.0\MTGAContructedInfo.AssemblyInfo.cs
+C:\Users\tpanh\source\repos\MTGAContructedInfo\MTGAContructedInfo\obj\Debug\netcoreapp2.0\MTGAContructedInfo.dll
+C:\Users\tpanh\source\repos\MTGAContructedInfo\MTGAContructedInfo\obj\Debug\netcoreapp2.0\MTGAContructedInfo.pdb
