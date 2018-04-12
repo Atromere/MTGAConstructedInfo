@@ -7,13 +7,13 @@
   "targets": {
     ".NETCoreApp,Version=v2.0": {},
     ".NETCoreApp,Version=v2.0/win10-x64": {
-      "MTGAContructedInfo/1.0.0": {
+      "MTGAConstructedInfo/1.0.0": {
         "dependencies": {
           "Microsoft.NETCore.App": "2.0.0",
           "Newtonsoft.Json": "11.0.2"
         },
         "runtime": {
-          "MTGAContructedInfo.dll": {}
+          "MTGAConstructedInfo.dll": {}
         }
       },
       "Microsoft.NETCore.App/2.0.0": {
@@ -290,7 +290,7 @@
     }
   },
   "libraries": {
-    "MTGAContructedInfo/1.0.0": {
+    "MTGAConstructedInfo/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
