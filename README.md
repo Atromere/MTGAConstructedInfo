@@ -6,10 +6,17 @@ How to generate executable: go to project directory in command line or use VS pa
 
 If you find me on stream, feel free to come chat!  Or if you have any questions you can reach me via social media in one of the links below.
 
+
 Author:  Trevor Panhorst (Atromere)
+
 Publish Date: 04/12/2018
+
 Twitch: http://twitch.tv/Atromere
+
 Twitter: http://twitter.com/Atromere
+
 Facebook: http://facebook.com/Atromere
+
+
 
 I stream MTG Arena and sometimes other games :)
