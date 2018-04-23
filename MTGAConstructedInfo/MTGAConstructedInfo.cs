@@ -4,6 +4,8 @@
  *  The intended use is for twitch streamers to be able to.
  *  This will continue to work as long as the file at "<your windows user path>/AppData/LocalLow/Wizards Of The Coast/MTGA/output_log.txt
  *  stays the same.  If wizards decides to change they way they report the rank info, this program will break, so keep an eye on that!
+ *  
+ *  After running the program, the file can be linked with a text reader on OBS and is located at <your windows user path>/AppData/LocalLow/MTGARankInfo/MTGAContructedInfo\MTGAConstructedRankInfo.txt
  *
  *  Updates immediately when ran and then once every 35 seconds.
  *  
@@ -77,6 +79,7 @@ namespace MTGAContructedInfo
                         {
                             string rank;
                             string streak;
+                            int streakAbs =  Math.Abs((int)constructedRank.streak);
                             //No point in showing progress for Master tier since it is always Master 1 (0% progress)
                             if (constructedRank.@class.Contains("Master"))
                             {
@@ -88,17 +91,17 @@ namespace MTGAContructedInfo
                             }
                             if(constructedRank.streak == 1)
                             {
-                                streak = constructedRank.streak + " win";
+                                streak = streakAbs + " win";
                             } else if(constructedRank.streak == -1)
                             {
-                                streak = constructedRank.streak + " loss";
+                                streak = streakAbs + " loss";
                             }
                             else if (constructedRank.streak < -1 )
                             {
-                                streak = constructedRank.streak + " losses";
+                                streak = streakAbs + " losses";
                             } else
                             {
-                                streak = constructedRank.streak + " wins";
+                                streak = streakAbs + " wins";
                             }
                             var rankInfo =
                                     "MTG Arena Rank Info \n" +
@@ -164,8 +167,8 @@ namespace MTGAContructedInfo
             constructed.tier = (int)jConstructed["tier"];
             constructed.progress = (int)jConstructed["progress"];
             constructed.streak = (int)jConstructed["streak"];
-            constructed.wins = (decimal)jConstructed["wins"];
-            constructed.losses = (decimal)jConstructed["losses"];
+            constructed.wins = (int)jConstructed["wins"];
+            constructed.losses = (int)jConstructed["losses"];
         }
     }
     public class Constructed
@@ -175,8 +178,8 @@ namespace MTGAContructedInfo
         public string classHighWaterMark;
         public int tier;
         public int progress;
-        public decimal streak;
-        public decimal wins;
-        public decimal losses;
+        public int streak;
+        public int wins;
+        public int losses;
     }
 }
