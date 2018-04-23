@@ -43,13 +43,14 @@ namespace MTGAContructedInfo
             {
                 userFolder = Directory.GetParent(userFolder).ToString();
             }
-            var mtgaLogPath = userFolder + "/Wizards Of The Coast/MTGA/output_log.txt";
-            var appDir = userFolder + "/MTGAContructedInfo/";
+            var mtgaLogPath = userFolder + "\\Wizards Of The Coast\\MTGA\\output_log.txt";
+            var appDir = userFolder + "\\MTGAContructedInfo\\";
             var appPath = appDir + "MTGAConstructedRankInfo.txt";
              // Attempted to use File.ReadAllLines, but it throws an error while MTGA is active due to the file being in use.  
              // So iterating over each line is the work-around.
             while (true)
             {
+
                 try
                 {
                     using (var fileStream = File.Open(mtgaLogPath, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite))
@@ -112,7 +113,8 @@ namespace MTGAContructedInfo
                                     "Streak: " + streak;
                             Byte[] info = new UTF8Encoding(true).GetBytes(rankInfo);
                             fs.Write(info, 0, info.Length);
-                            Console.WriteLine(DateTime.Now.ToString() + ":\n\n" + rankInfo + "\n\n\n");
+                            Console.Clear();
+                            Console.WriteLine(DateTime.Now.ToString() + "\n\n" + rankInfo + "\n\nYou can add the file \n("+ appPath+")\nto OBS (or other stream software) as a text source to display on your stream :)\n\nThis will update every 35 seconds!");
                         }
                     }
                 } catch(Exception ex)
