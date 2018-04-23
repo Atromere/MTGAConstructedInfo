@@ -10,6 +10,7 @@ After running the program, the file can be linked with a text reader on OBS and 
 How to generate executable: go to project directory in command line or use VS package manager console & run `dotnet publish -c Release -r win10-x64 --self-contained`
 ## Example
 [Example](https://github.com/Atromere/MTGAConstructedInfo/blob/master/images/MTGAConstructedInfoExample.png)
+[[https://github.com/Atromere/MTGAConstructedInfo/blob/master/images/MTGAConstructedInfoExample.png|alt=Example]]
 ## Me
 If you find me on stream, feel free to come chat!  Or if you have any questions you can reach me via social media in one of the links below.
 - Author:  Trevor Panhorst (Atromere)
